@@ -1,1 +1,13 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+.logo-black{
+    display: block;
+}
+.logo-black-img{
+    width: 148px;
+    height: 105px;
+}
+
