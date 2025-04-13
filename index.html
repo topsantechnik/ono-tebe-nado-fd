@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <nav class="header__menu">
-        <ul>
+        <ul class="header__menu-list">
           <li class="header__links-list-item_no-bullit">
             <a class="header__link" href="#0">главная</a>
           </li>
@@ -22,7 +22,9 @@
             >
           </li>
           <li>
-            <a class="header__link_active underline-position" href="#0"
+            <a
+              class="header__link_active underline-position last-child"
+              href="#0"
               >об аукционе</a
             >
           </li>
@@ -35,16 +37,18 @@
           alt="logo-image"
         />
       </a>
-      <adress class="adress header__address">
-        <a href="tel:+99995555555" class="underline-position"
-          >+9 999 555 5555</a
-        >
-        <a href="mailto:info@sobaka.ge" class="underline-position"
-          >info@sobaka.ge</a
-        >
-        <br />наб. Принсенграхт 263-<br />
-        265, Амстердам
-      </adress>
+      <div class="adress header__address">
+        <adress class="adress header__address">
+          <a href="tel:+99995555555" class="underline-position"
+            >+9 999 555 5555</a
+          >
+          <a href="mailto:info@sobaka.ge" class="underline-position"
+            >info@sobaka.ge</a
+          >
+          <br />наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </adress>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -151,15 +155,17 @@
       </section>
     </main>
     <footer class="footer">
-      <adress class="adress footer__address">
-        <a href="tel:+99995555555" class="underline-position"
-          >+9 999 555 5555</a
-        >
-        <a href="mailto:info@sobaka.ge" class="underline-position"
-          >info@sobaka.ge</a
-        >
-        <br />наб. Принсенграхт 263-265, Амстердам
-      </adress>
+      <div class="adress footer__address">
+        <adress class="adress footer__address">
+          <a href="tel:+99995555555" class="underline-position"
+            >+9 999 555 5555</a
+          >
+          <a href="mailto:info@sobaka.ge" class="underline-position"
+            >info@sobaka.ge</a
+          >
+          <br />наб. Принсенграхт 263-265, Амстердам
+        </adress>
+      </div>
       <nav class="footer__menu">
         <ul>
           <li class="footer__menu-list-item">

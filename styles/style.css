@@ -8,13 +8,14 @@
   padding-left: 50px;
   padding-bottom: 100px;
 }
-.header__menu {
+.header__menu-list {
   display: flex;
   list-style: circle;
-  gap: 10px;
+  gap: 32px;
   font-weight: 400;
   font-size: 18px;
 }
+
 .header__links-list-item_no-bullit {
   list-style: none;
 }
