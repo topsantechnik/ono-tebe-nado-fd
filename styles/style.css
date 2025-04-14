@@ -19,7 +19,7 @@
 .header__links-list-item_no-bullit {
   list-style: none;
 }
-.header__link_active{
+.header__link_active {
   text-decoration: none;
 }
 .header__logo {
@@ -244,14 +244,14 @@
   max-width: 240px;
   justify-self: start;
 }
-.footer__menu-list{
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-text-align: center;
-display: flex;
-flex-direction: column;
-gap: 5px;
+.footer__menu-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .footer__menu-list-item {
   list-style: none;
