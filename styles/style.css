@@ -6,18 +6,20 @@
   font-size: 18px;
   padding-top: 92px;
   padding-left: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 93px;
 }
 .header__menu-list {
   display: flex;
   list-style: circle;
   gap: 32px;
-  font-weight: 400;
-  font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+.header__link{
+  font-weight: 400;
+  font-size: 18px;
 }
 .header__link_active {
   text-decoration: none;
@@ -53,7 +55,7 @@
 }
 .overlay {
   position: absolute;
-  background-color: rgb(0 0 0 / 0.5);
+  background-color: rgb(0 0 0 / 0.6);
   inset: 0;
   z-index: 0;
 }
@@ -66,7 +68,7 @@
   letter-spacing: 30px;
   text-transform: uppercase;
   z-index: 1;
-  padding-top: 147px;
+  padding-top: 154px;
 }
 .aligned-text {
   padding-left: 50px;
@@ -80,9 +82,9 @@
 .cover__description {
   display: flex;
   z-index: 1;
-  padding-left: 53px;
+  padding-left: 50px;
   padding-top: 97px;
-  padding-bottom: 42px;
+  padding-bottom: 46px;
   align-items: center;
   gap: 107px;
 }
@@ -110,7 +112,7 @@
   border-width: 1px;
 }
 .lots {
-  padding-top: 189px;
+  padding-top: 186px;
 }
 .lots__heading {
   font-weight: 700;
@@ -144,21 +146,17 @@
   justify-content: space-between;
   padding: 48px 40px;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
 }
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
 }
 .card__title,
 .card__text {
@@ -245,9 +243,6 @@
   justify-self: start;
 }
 .footer__menu-list {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -257,6 +252,11 @@
   list-style: none;
   justify-self: center;
   text-underline-position: auto;
+}
+.footer__menu-link{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
 }
 .footer__menu-link_active {
   text-decoration: none;
